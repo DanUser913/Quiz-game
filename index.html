@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Perguntas e respostas</title>
+</head>
+<body>
+<div class="header">
+    
+    <div class="profile-image">
+        <img src="./images/a.png" alt="Profile Image">
+    </div>
+    <div class="score">😀: <span id="score">0</span>     |......|     <span id="errors">0</span> :😥</div>
+</div>
+
+<div class="quiz-container">
+    <div class="question" id="question"></div>
+    <div class="answers" id="answers">
+        
+    </div>
+    
+    <div class="result-message" id="result-message"></div>
+    <div class="feedback" id="feedback"></div>
+
+  </div>
+  <div class="more-button" id="more-button">
+    <button onclick="loadMoreQuestions()">Mais</button>
+  </div>
+
+  
+  <p>&copy; 2023 Daniel Lucena</p>
+  <script src="script.js"></script>
+</body>
+</html>
